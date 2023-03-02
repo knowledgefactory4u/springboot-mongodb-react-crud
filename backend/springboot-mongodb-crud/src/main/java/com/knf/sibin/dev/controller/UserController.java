@@ -21,7 +21,7 @@ import com.knf.sibin.dev.repository.UserRepository;
 
 @CrossOrigin(origins = "*", maxAge = 4800)
 @RestController
-@RequestMapping("/api/v1/")
+@RequestMapping("/api/v1")
 public class UserController {
 	@Autowired
 	private UserRepository userRepository;
